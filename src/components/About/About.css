@@ -1,6 +1,6 @@
 .about {
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 0em;
 }
 
 .about__name {
@@ -8,7 +8,7 @@
 }
 
 .about__role {
-  margin-top: 1.2em;
+  margin-top: 0em;
 }
 
 .about__desc {
@@ -18,7 +18,7 @@
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 2.0em;
 }
 
 .about .link--icon {

@@ -6,13 +6,14 @@ const Contact = () => {
 
   return (
     <section className='section contact center' id='contact'>
-      <h2 className='section__title'>Contato</h2>
+      <h3 className='section__title'>Contato</h3>
+      <p className='p'>(51) 3930-6002</p>
       <a href={`mailto:${contact.email}`}>
         <span type='button' className='btn btn--outline'>
-          Envie-nos e-mail
+          Enviar E-mail
         </span>
       </a>
-      <p type='text'>(51) 3930-6002</p>
+      
     </section>
   )
 }

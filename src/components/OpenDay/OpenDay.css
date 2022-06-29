@@ -1,0 +1,23 @@
+.openDay {
+    flex-direction: column;
+    margin-top: 3em;
+  }
+  
+  .openDay__name {
+    color: var(--clr-primary);
+  }
+
+  .openDay__data {
+    margin-top: 1.2em;
+  }
+
+  .openDay__rules {
+    margin-top: 0.5em;
+  }
+
+  .openDay__desc {
+    font-size: 1rem;
+    max-width: 600px;
+    margin-top: 2.0em;
+  }
+  
