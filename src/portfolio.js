@@ -1,3 +1,8 @@
+import braille from "./assets/braille.png"
+import printrbot from "./assets/printrbot.png"
+import wanhao from "./assets/wanhao.png"
+
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://fabfoundation.org/getting-started/#fablabs-full',
@@ -7,7 +12,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'POALAB',
-  role: '!Atenção! Mudamos de sala!',
+  role: 'Atenção! Mudamos de sala!',
   description:
     'O POALAB é um laboratório de fabricação digital e está conectado à rede mundial de fab labs. Opera como um programa de extensão do IFRS campus Porto Alegre. Temos como missão popularizar o acesso e letramento na fabricação digital, funcionando como uma plataforma de criatividade, aprendizagem e invenção. Ser um Fab Lab significa estar conectado a uma comunidade mundial de alunos, educadores, técnicos, pesquisadores e inovadores e desenvolver atividades dentro da filosofia do conhecimento aberto. Em 2 anos de funcionamento a faixa etária de usuários  variou entre 5 e 76 anos... queremos avançar nos dois limites;  O objetivo do lab é o de disseminar conhecimento! Se você não tem nenhum conhecimento sobre fabricação digital, o lab foi feito pra você. Continua com dúvidas? Mande mensagem via e-mail ou via página do Facebook logo abaixo!',
   resume: 'https://www.poalab.net.br/',
@@ -24,8 +29,7 @@ const projects = [
     name: 'Equipamento 0',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    image: 'assets/braille.png',
+    image: braille,
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -33,7 +37,8 @@ const projects = [
     name: 'Equipamento 1',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+    image: printrbot,
+
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -41,7 +46,7 @@ const projects = [
     name: 'Equipamento 3',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+    imagem: wanhao,
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -57,21 +62,66 @@ const openDay = {
 
 
 const skills = [
-  // links can be added or removed
-  // if there are no links, links section won't show up
-  'Impressora Braille 3D',
-  'Thingiverse',
-  'Instructables',
-  'Opendesk',
-  'MakerCase',
-  'Inkscape',
-  'Projeto Nativos Fabbers',
-  'Fab Academy',
-  'Fab City',
-  'Fab Foundation',
-  'tinkercad',
-  'maker faire POA',
-  'Make magazine'
+  {
+    name:"Impressora Braille 3D",
+    link:"https://cta-ifrs.github.io/Text2Braille3d/",
+    image: 'images/braille.png'
+  },
+  {
+    name:"Thingiverse",
+    link:"https://www.thingiverse.com/",
+    image: 'images/thingiverse.png'
+  },
+  {
+    name:"Instructables",
+    link:"https://www.instructables.com/",
+    image: 'images/InstructablesRobot.png'
+  },
+  {
+    name:"Opendesk",
+    link:"https://www.opendesk.cc/",
+    image: 'images/opendesk.png'
+  },
+  {
+    name:"MakerCase",
+    link:"https://www.makercase.com/",
+    image: 'images/makercase.png'
+  },
+  {
+    name:"Inkscape",
+    link:"https://inkscape.org/pt-br/",
+    image: 'images/inkscape.png'
+  },
+  {
+    name:"Projeto Nativos Fabbers",
+    link:"https://www.poalab.net.br/fabbernatives/",
+    image: 'images/logo(1).svg'
+  },
+  {
+    name:"Fab Academy",
+    link:"http://fabacademy.org/",
+    image: 'images/fabacademy.png'
+  },
+  {
+    name:"Fab City",
+    link:"https://fab.city/",
+    image: 'images/fabcity.png'
+  },
+  {
+    name:"tinkercad",
+    link:"https://www.tinkercad.com/",
+    image: 'images/tinkercad.png'
+  },
+  {
+    name:"maker faire POA",
+    link:"https://portoalegre.makerfaire.com/",
+    image: 'images/makepoa.png'
+  },
+  {
+    name:"Make magazine",
+    link:"https://portoalegre.makerfaire.com/",
+    image: 'images/make.png'
+  }
 ]
 
 const contact = {

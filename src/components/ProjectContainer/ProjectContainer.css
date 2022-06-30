@@ -6,6 +6,10 @@
   transition: transform 0.2s linear;
 }
 
+.project img{
+  max-width: 100px;
+}
+
 .project:hover {
   transform: translateY(-7px);
 }
